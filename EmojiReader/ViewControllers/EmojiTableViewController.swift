@@ -8,25 +8,49 @@
 import UIKit
 
 class EmojiTableViewController: UITableViewController {
+    
+    let objects = [
+        Emoji(
+            emoji: "⚽️",
+            name: "Football",
+            description: "Lets play football together",
+            isFavourite: false
+        ),
+        Emoji(
+            emoji: "😇",
+            name: "Love",
+            description: "Let's love each other",
+            isFavourite: false
+        ),
+        Emoji(
+            emoji: "🥳",
+            name: "Party",
+            description: "Let's go to the party",
+            isFavourite: false
+        )
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        navigationItem.leftBarButtonItem = editButtonItem
     }
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return objects.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! EmojiTableViewCell
+        let object = objects[indexPath.row]
+        
+        cell.set(object: object)
+        
         return cell
     }
 
