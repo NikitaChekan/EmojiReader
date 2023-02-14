@@ -43,6 +43,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA28E2B4299C0FEF005B1D04 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DAB11B16299BC51B00C32B2F /* AppDelegate.swift */,
+				DAB11B18299BC51B00C32B2F /* SceneDelegate.swift */,
+				DAB11B24299BC51D00C32B2F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DA28E2B5299C1003005B1D04 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DAB11B1C299BC51B00C32B2F /* Main.storyboard */,
+				DAB11B21299BC51D00C32B2F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DA28E2B6299C101B005B1D04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAB11B1F299BC51D00C32B2F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DAB11B0A299BC51B00C32B2F = {
 			isa = PBXGroup;
 			children = (
@@ -62,14 +89,11 @@
 		DAB11B15299BC51B00C32B2F /* EmojiReader */ = {
 			isa = PBXGroup;
 			children = (
-				DAB11B16299BC51B00C32B2F /* AppDelegate.swift */,
-				DAB11B18299BC51B00C32B2F /* SceneDelegate.swift */,
+				DA28E2B4299C0FEF005B1D04 /* App */,
 				DAB11B2E299BD32900C32B2F /* ViewControllers */,
 				DAB11B2F299BD34400C32B2F /* Models */,
-				DAB11B1C299BC51B00C32B2F /* Main.storyboard */,
-				DAB11B1F299BC51D00C32B2F /* Assets.xcassets */,
-				DAB11B21299BC51D00C32B2F /* LaunchScreen.storyboard */,
-				DAB11B24299BC51D00C32B2F /* Info.plist */,
+				DA28E2B5299C1003005B1D04 /* Storyboards */,
+				DA28E2B6299C101B005B1D04 /* Resources */,
 			);
 			path = EmojiReader;
 			sourceTree = "<group>";
