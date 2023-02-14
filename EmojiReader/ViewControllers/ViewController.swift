@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  EmojiReader
 //
-//  Created by jopootrivatel on 14.02.2023.
+//  Created by Nikita Chekan on 14.02.2023.
 //
 
 import UIKit

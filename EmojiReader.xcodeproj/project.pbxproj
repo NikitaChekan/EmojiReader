@@ -77,9 +77,9 @@
 		DAB11B2E299BD32900C32B2F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DAB11B1A299BC51B00C32B2F /* ViewController.swift */,
 				DAB11B2A299BC74700C32B2F /* EmojiTableViewController.swift */,
 				DAB11B2C299BD03000C32B2F /* EmojiTableViewCell.swift */,
+				DAB11B1A299BC51B00C32B2F /* ViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
