@@ -8,8 +8,8 @@
 import Foundation
 
 struct Emoji {
-    let emoji: String
-    let name: String
-    let description: String
-    let isFavourite: Bool
+    var emoji: String
+    var name: String
+    var description: String
+    var isFavourite: Bool
 }
